@@ -57,7 +57,7 @@ jobs:
           docker buildx use awx-ee-buildx
           ansible-builder create -v3 --output-file=Dockerfile
           docker buildx build \
-            --push \
+            --push ghcr.io/bradengel/awx-ee:lastes \
             --platform=linux/amd64,linux/arm64 \
             --tag=${{ github.repository }}/awx-ee:latest \
             context
