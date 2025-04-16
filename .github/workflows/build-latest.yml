@@ -48,7 +48,7 @@ jobs:
       # https://github.com/docker/setup-buildx-action
       - name: awx-ee-buildx
         uses: docker/awx-ee-buildx@v3
-        platforms: linux/amd64,linux/arm64
+        # platforms: linux/amd64,linux/arm64
 
       - name: ansible-builder
         id: ansible-builder
