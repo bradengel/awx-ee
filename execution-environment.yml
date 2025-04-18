@@ -31,7 +31,7 @@ dependencies:
       - name: kubevirt.core
       - name: community.hashi_vault
       - name: netbox.netbox
-      - name: community.general.sudoers
+      - name: community.general
   system: |
     git-core [platform:rpm]
     python3.11-devel [platform:rpm compile]
