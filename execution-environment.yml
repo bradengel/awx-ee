@@ -66,6 +66,7 @@ dependencies:
     receptorctl
     pytz
     pynetbox
+    passlib
 additional_build_steps:
   append_base:
     - RUN $PYCMD -m pip install -U pip
